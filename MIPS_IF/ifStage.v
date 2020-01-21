@@ -41,7 +41,7 @@ module ifStage(
     PC = 0;
     reg_inst = 0;
     reg_pc = 0;
-    $readmemh("C:/Users/Javier Pardo/Desktop/Chico/Chico/Eece 425/MIPS/IF/IF.srcs/sources_1/new/memfile.dat",mem_array);
+    $readmemh("<file address>/memfile.dat",mem_array);
       
     end
     
